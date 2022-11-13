@@ -1,4 +1,4 @@
-# onvert Hours into Seconds
+# Convert Hours into Seconds
 
 
 def how_many_seconds(hours):
