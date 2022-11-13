@@ -1,4 +1,4 @@
-C# onvert Hours into Seconds
+# onvert Hours into Seconds
 
 
 def how_many_seconds(hours):
