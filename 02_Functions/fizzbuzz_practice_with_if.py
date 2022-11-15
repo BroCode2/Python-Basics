@@ -6,7 +6,8 @@ def fizz_buzz(input):
         return "Fizz"
     if input % 5 ==0:
         return "Buzz"
-    return input
+    else:
+        return input
 
 print(fizz_buzz(15))
 print (fizz_buzz(6))
