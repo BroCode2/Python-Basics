@@ -1,0 +1,5 @@
+def string_int(str):
+    return int(str)
+
+result = string_int("10")
+print(result)
