@@ -11,3 +11,15 @@ try:
 
 except:
     print ("enter numeric values only")
+
+# Ex 2
+
+hours = int(input("Enter hours: "))
+rate = 10
+overtime = (hours - 40) * (rate * 1.5) + rate * 40
+payment = hours * rate 
+
+if hours > 40:
+    print ("You have earned: ", overtime)
+else:
+    print(payment)
